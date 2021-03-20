@@ -21,7 +21,8 @@ body {
     /* border: 1px solid; */
     display: flex;
     justify-content: space-around;
-    margin: 2em 0;
+    width: 400px;
+    margin: 2em auto;
 }
 .process li {
     padding: 1em;
@@ -29,7 +30,7 @@ body {
 }
 .process li a {
     text-decoration: none;
-    color:#1A004E;
+    color:#464449;
     font-weight: bold;
     text-align: center;
 }
@@ -41,4 +42,11 @@ body {
     display: grid;
     place-content: center;
     margin: 0 auto 1em;
+}
+.current .circle {
+    background-color: #1A004E;
+    color: white;
+}
+.current span {
+    color: #1A004E;
 }
