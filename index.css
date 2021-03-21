@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 2em auto;
+    width: 300px;
 }
 .process li a {
     text-decoration: none;
@@ -92,7 +93,9 @@ label{
 .error {
     background-color: rgb(236, 121, 121);
     display: inline-block;
-    margin-top: -2em;
+    margin-top: 0;
+    padding: .5em;
+    font-weight: bold;
 }
 .cta {
     text-decoration: none;
@@ -101,12 +104,8 @@ label{
     font-weight: bold;
     font-size: 1.25rem;
     padding: .5em 1.5em;
-    border-radius: .5em;
+    border-radius: .2em;
     margin: 1em 0;
     display: block;
     text-align: center;
-}
-.right-col p {
-    font-size: .8rem;
-    line-height: 1.5;
 }
