@@ -105,7 +105,35 @@ label{
     font-size: 1.25rem;
     padding: .5em 1.5em;
     border-radius: .2em;
-    margin: 1em 0;
+    margin: 1em 0 2em;
     display: block;
     text-align: center;
+}
+.right-col {
+    color:#757576;
+}
+@media (min-width:700px) {
+    main {
+        display: grid;
+        grid-template-columns: 400px auto;
+        gap: 2em;
+    }
+    .cta {
+        margin-bottom: 0;
+    }
+    .right-col {
+        font-size: .75rem;
+        margin-top: 6em;
+        position: relative;
+    }
+    .right-col::before{
+        content: '';
+        position: absolute;
+        background-color: #6427dd;
+        width: 2px;
+        height: 100px;
+        left: -1em;
+        top: 1em;
+    }
+
 }
