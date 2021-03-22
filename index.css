@@ -96,6 +96,8 @@ label{
     margin-top: 0;
     padding: .5em;
     font-weight: bold;
+    font-size: .75rem;
+    color: white;
 }
 .cta {
     text-decoration: none;
@@ -112,7 +114,7 @@ label{
 .right-col {
     color:#757576;
 }
-@media (min-width:700px) {
+@media (min-width:650px) {
     main {
         display: grid;
         grid-template-columns: 400px auto;
@@ -120,20 +122,18 @@ label{
     }
     .cta {
         margin-bottom: 0;
+        float: right;
     }
     .right-col {
         font-size: .75rem;
         margin-top: 6em;
         position: relative;
     }
-    .right-col::before{
-        content: '';
-        position: absolute;
-        background-color: #6427dd;
-        width: 2px;
-        height: 100px;
-        left: -1em;
-        top: 1em;
-    }
+}
 
+@media (min-width: 800px) {
+    main {
+        width: 750px;
+        margin: 0 auto;
+    }
 }
