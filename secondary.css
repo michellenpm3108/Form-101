@@ -5,7 +5,39 @@ select {
 	-ms-appearance:none;
 	background:url('https://img.icons8.com/android/24/000000/expand-arrow.png');
 	background-repeat: no-repeat;
-	background-size:16px 16px;
+	background-origin: content-box;
 	background-position: right;
-    background-origin: content-box;
+	background-size: 16px 16px;
+}
+
+input[type="radio"] {
+	appearance: none;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+	width: 1em;
+	height: 1em;
+	border: 1px solid grey;
+	border-radius: 50%;
+	position: relative;
+	outline: none;
+	margin-right: 1em;
+	margin-top: .5em;
+}
+input[type="radio"]:checked::before{
+	content:'';
+	width: .5em;
+	height: .5em;
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	background-color: #6427dd;
+	border-radius: 50%;
+}
+.left-label {
+	display: unset;
+	margin-right: 2em;
+}
+.mt-extra {
+	margin-top: 1em;
 }
