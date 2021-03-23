@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Step 2</title>
+    <title>Step 3</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="secondary.css">
 
@@ -19,13 +19,13 @@
                     <span>Account</span>
                 </a>
             </li>
-            <li class="current">
+            <li>
                 <a href="step2.html">
                     <div class="circle">2</div>
                     <span>Details</span>
                 </a>
             </li>
-            <li>
+            <li class="current">
                 <a href="step3.html">
                     <div class="circle">3</div>
                     <span>Confirmation</span>
@@ -36,30 +36,14 @@
         <main>
             
             <div class="left-col">
-                <h2>Details</h2>
-             
-                <label for="loc">Country</label>
-                <select id="loc">
-                    <option value="US">United State</option>
-                    <option value="Germany">Germany</option>
-                    <option value="France">France</option>
-                    <option value="UK">UK</option>
-                    <option value="Switzerland">Switzerland</option>
-                    <option value="Norway">Norway</option>
-                </select>
-
-                <label>Gender</label>
+                <h2>Confirmation</h2>
+                <label for="tos">Terms of Service</label>
+                <textarea id="tos" class="extra-height">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laborum corrupti officiis animi magni vel natus dolor minima quam iste? Earum, voluptatem illum cumque sunt repellendus animi esse consequatur. Unde odit, omnis alias, quas, illum possimus maxime dolorum hic vel iusto soluta? Tempora iusto facilis illo vero error, eligendi dignissimos facere, fugit nam magni corrupti impedit aut sequi! Atque expedita hic natus quidem perspiciatis, voluptates cum maiores cumque in exercitationem quia veritatis! Sed quod ad quidem ipsum deserunt iure commodi accusamus sunt? Aliquid magni iusto optio voluptate veniam aliquam! Magnam aperiam sunt molestias officia soluta, pariatur nobis eos id laudantium itaque quae ducimus vero obcaecati. Laborum odio natus qui voluptatem, consequuntur excepturi rem sapiente quidem incidunt cum, ad unde totam placeat reiciendis autem repudiandae asperiores dolore! Reprehenderit mollitia et totam neque dicta eius nostrum accusamus voluptas? Animi quasi dolor sunt! </textarea>
                 
-                <input type="radio" id="male" name="gender" checked>
-                <label for="male" class="left-label">Male</label>    
-            
-                <input type="radio" id="female" name="gender">
-                <label for="female" class="left-label">Female</label>    
-               
-                <label for="bio" class="mt-extra">Biography</label>
-                <textarea></textarea>
+                <input type="checkbox" name="cb" id="cb">
+                <label for="cb">I agree to the Terms of Service</label>
 
-                <a href="step3.html" class="cta">Next</a>
+                <a href="step3.html" class="cta">Complete Signup</a>
             </div>
 
             <div class="right-col">
