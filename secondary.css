@@ -36,8 +36,13 @@ input[type="radio"]:checked::before{
 }
 .left-label {
 	display: unset;
+	font-weight: normal;
 	margin-right: 2em;
+	font-size: .8rem;
 }
 .mt-extra {
 	margin-top: 1em;
+}
+#cb {
+	margin-bottom: 3em;
 }
